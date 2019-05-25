@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateVertica", "NHibernateVertica\NHibernateVertica.csproj", "{A305AFF6-41DB-4FB9-B82A-F09A2862D92D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HNB.Vertica.Test", "HNB.Vertica.Test\HNB.Vertica.Test.csproj", "{AD7832BD-05B4-4406-B7DD-A52591E881C3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A305AFF6-41DB-4FB9-B82A-F09A2862D92D} = {A305AFF6-41DB-4FB9-B82A-F09A2862D92D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A305AFF6-41DB-4FB9-B82A-F09A2862D92D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A305AFF6-41DB-4FB9-B82A-F09A2862D92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A305AFF6-41DB-4FB9-B82A-F09A2862D92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A305AFF6-41DB-4FB9-B82A-F09A2862D92D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7832BD-05B4-4406-B7DD-A52591E881C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7832BD-05B4-4406-B7DD-A52591E881C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7832BD-05B4-4406-B7DD-A52591E881C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7832BD-05B4-4406-B7DD-A52591E881C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
